@@ -9,7 +9,7 @@ scraper = ScrapeWebsiteTool()
 
 llm = LLM(
     model="gemini/gemini-2.5-flash",
-    api_key=os.getenv("GEMINI_API_KEY")
+    api_key=os.getenv("GROQ_API_KEY")
 )
 
 web_scraping_agent = Agent(
